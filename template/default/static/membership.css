@@ -1,0 +1,102 @@
+#membership {
+	text-align:center;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+#membership .first_child{
+	border: 1px solid #ccc;
+	margin: 2px;
+	height: 150px;
+	background-color: #efefef;
+}
+#membership .title_first_colum{
+	border: 1px solid #ccc;
+	margin: 2px;
+	height: 150px;
+	background-color: #efefef;
+	font-weight: 400;
+	color: #333;
+	font-size: 28px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#membership .field {
+	border:1px solid #ccc;
+	background-color: #efefef;
+	margin: 2px;
+	height: 33px;
+	font-size:16px;
+	line-height: 30px;
+	color: #333;
+	text-align:left;
+}
+#membership .first {
+	padding-left:10px;
+}
+#membership .last_child{
+	border: 1px solid #5b5b5b;
+	margin: 2px;
+	font-size:18px;
+	font-weight:bold;
+	height: 90px;
+	line-height: 28px;
+	background-color: #434343;
+	text-align:center;
+}
+#membership .sub_pack{
+	font-family: 'Open Sans Condensed', serif;
+	font-weight: 300;
+	margin: 10px 9px 0 9px;
+	padding: 10px 0;
+	font-size: 28px;
+	color: #fff;
+	background-color: #999;
+    -webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+#membership .price{
+	padding-top: 13px;
+	color: #01b8e2;
+	background-color: #434343;
+	font-weight: 600;
+	height: 87px;
+	margin: 0 9px 9px;
+	font-size: 22px;
+	line-height: 32px;
+	border: 1px solid #999;
+	border-top: 1px solid #ccc;
+    -webkit-border-bottom-right-radius: 2px;
+	-webkit-border-bottom-left-radius: 2px;
+	-moz-border-radius-bottomright: 2px;
+	-moz-border-radius-bottomleft: 2px;
+	border-bottom-right-radius: 2px;
+	border-bottom-left-radius: 2px;
+}
+#membership .subprice{
+	font-weight: 300;
+	font-size: 14px;
+	color: #fff;
+}
+#membership .bottomprice{
+	font-weight: 300;
+	font-size: 40px;
+	color: #fff;
+}
+#membership .subprice_big{
+	font-weight: 300;
+	font-size: 46px;
+	line-height: 52px;
+	color: #fff;
+}
+#membership .small{
+	font-weight: 300;
+	font-size: 12px;
+	color: #efefef;
+}
+.padding-0{padding-right:0;padding-left:0;}
+
+.lead p,.result,h4.great{font-weight:600;display:inline-block}.price-box{margin:0 auto;background:#E9E9E9;border-radius:10px;padding:20px 15px;width:500px}.ui-widget-content{border:1px solid #bdc3c7;background:#e1e1e1;color:#222;margin-top:4px}.ui-slider .ui-slider-handle{position:absolute;z-index:2;width:5.2em;height:2.2em;margin:0 -40px auto!important;text-align:center;line-height:30px;color:#FFF;font-size:15px;cursor:pointer}.ui-slider .ui-slider-handle .fa{color:#FFF;margin:0 3px;font-size:11px;opacity:.5}.ui-corner-all{border-radius:20px}.ui-slider-horizontal .ui-slider-handle{top:-.9em;margin-left:-.5em}.ui-state-default,.ui-widget-content .ui-state-default{border:1px solid #f9f9f9;background:#3498db}.ui-slider a,.ui-slider a:focus{cursor:pointer;outline:0}.lead p,.result{font-size:21px;line-height:60px}h4.great{background:#00ac98;margin:0 0 25px -60px;padding:7px 15px;color:#fff;font-size:18px;border-radius:5px;-moz-box-shadow:2px 4px 5px 0 #ccc;-webkit-box-shadow:2px 4px 5px 0 #ccc;box-shadow:2px 4px 5px 0 #ccc}.form-pricing,.price-form{background:#fff;padding:20px}.price-slider{margin-bottom:50px}.price-slider span{font-weight:200;display:inline-block;color:#7f8c8d;font-size:13px}.form-pricing{border-radius:4px}.price-form{margin-bottom:10px;border:1px solid #eee;border-radius:4px}.form-group{margin-bottom:0}.form-group span.price{font-weight:200;display:inline-block;color:#7f8c8d;font-size:12px}.help-text{display:block;margin-top:32px;margin-bottom:10px;color:#737373;font-size:12px;position:absolute;font-weight:200;text-align:right;width:188px}.price-form label{font-weight:200;font-size:21px}.ui-slider-range-min{background:#2980b9}hr.style{border:0;height:1px;margin:10px 0;background:-webkit-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,.75),rgba(0,0,0,0));background:-moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,.75),rgba(0,0,0,0));background:-ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,.75),rgba(0,0,0,0));background:-o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,.75),rgba(0,0,0,0))}

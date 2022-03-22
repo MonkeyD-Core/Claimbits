@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Documentation</title>
+	<style>#title,.subsubtitle,.subtitle,ul#tabs{font-weight:700}#tabs li.seltab,#tabs li.seltab a,#tabs li.tab,#tabs li.tab A,#tabs li.tab A:hover,#title,ul#tabs{-webkit-border-top-right-radius:5px}#content,#tabs li.seltab,#tabs li.seltab a,#tabs li.tab,#tabs li.tab A,#tabs li.tab A:hover,#title,ul#tabs{-moz-border-radius-topleft:5px}#tabs li.seltab,#tabs li.seltab a,#tabs li.tab,#tabs li.tab A,#tabs li.tab A:hover,#title,ul#tabs{-moz-border-radius-topright:5px}#content,#copyright,#tabs li.tab,blockquote,xmp{border:1px solid #BBB}body,html{font-family:Tahoma;font-size:11px;color:#000;background:#d6d6ca}#title,.subsubtitle,.subtitle{font-family:Verdana,Arial}p{padding-left:10px}blockquote,xmp{margin:10px 20px 0;padding:10px;background-color:#f5f5f5;overflow:auto}li{margin-top:4px}ul li ul li{margin-top:10px}a,a:active,a:link,a:visited{color:#2d3a4c;text-decoration:none;outline:0}a:hover{color:#2d3a4c;text-decoration:underline}#tabs li.seltab a,#tabs li.tab A{padding:5px;color:#666;text-decoration:none}#container{width:780px;margin-left:auto;margin-right:auto}#content{-moz-border-radius-bottomright:5px;-moz-border-radius-bottomleft:5px;-webkit-border-bottom-right-radius:5px;-webkit-border-bottom-left-radius:5px;-webkit-border-top-left-radius:5px;background-color:#fafafa;padding:10px;margin-top:-13px;z-index:0}#title{font-size:22px;color:#389aff;-webkit-border-top-left-radius:5px;margin-bottom:10px}.subtitle{font-size:18px;color:#5b87b4}.subsubtitle{font-size:14px;color:#73a4d6}ul#tabs{font-family:Tahoma;font-size:11px;-webkit-border-top-left-radius:5px;list-style-type:none;padding-bottom:28px;border-bottom:1px solid #d6d6ca;margin-bottom:12px;z-index:1}#tabs li.tab{float:right;height:25px;-webkit-border-top-left-radius:5px;background-color:#F4F3EE;margin:2px 0 0 5px}#tabs li.tab A{float:left;-webkit-border-top-left-radius:5px;display:block;height:15px}#tabs li.tab A:hover{-webkit-border-top-left-radius:5px;background-color:#d6d6ca}#tabs li.seltab{float:right;height:25px;-webkit-border-top-left-radius:5px;background-color:#fafafa;margin:2px 0 0 5px;border-top:1px solid #BBB;border-right:1px solid #BBB;border-bottom:1px solid #fafafa;border-left:1px solid #BBB}#tabs li.seltab a{float:left;display:block;-webkit-border-top-left-radius:5px;cursor:default}#copyright{-moz-border-radius:5px;-webkit-border-radius:5px;width:780px;margin-top:10px;padding-top:2px;padding-bottom:2px;background-color:#fafafa;text-align:center;margin-left:auto;margin-right:auto}</style>
+	<script type="text/javascript">
+	/* <![CDATA[*/
+		function tab(obj) {
+			if (location.hash) var location_hash = location.hash.slice(1);
+			else var location_hash = 'Info';
+
+			var tab = document.getElementById(location_hash+'Tab');
+			if (typeof tab != 'object') return;
+
+			if (obj.parentNode.id!=location_hash+'Tab') {
+				tab.className = 'tab';
+				obj.parentNode.className = 'seltab';
+
+				var cur_page = document.getElementById(obj.parentNode.id.replace('Tab','Page'));
+				if (typeof cur_page != 'object') return;
+
+				var page = document.getElementById(location_hash+'Page');
+				if (typeof page != 'object') return;
+
+				page.style.display = 'none';
+				cur_page.style.display = 'block';
+			}
+			return false;
+		};
+		function init_tab() {
+			if (location.hash) var location_hash = location.hash.slice(1);
+			else return;
+
+			var tab = document.getElementById(location_hash+'Tab');
+			if (typeof tab != 'object') return;
+
+			var cur_tab = document.getElementById('InfoTab');
+			if (typeof cur_tab != 'object') return;
+
+			cur_tab.className = 'tab';
+			tab.className = 'seltab';
+
+			var cur_page = document.getElementById('InfoPage');
+			if (typeof cur_page != 'object') return;
+
+			var page = document.getElementById(location_hash+'Page');
+			if (typeof page != 'object') return;
+
+			cur_page.style.display = 'none';
+			page.style.display = 'block';
+			return false;
+		};
+	/* ]]> */
+	</script>
+</head>
+<body onload="init_tab();">
+<div id="container">
+	<ul id="tabs"></ul>
+	<div id="content">
+		<div id="InfoPage">
+			<div class="subtitle">About</div>
+			<p>
+				<strong>Product:</strong><br />
+				<strong>&raquo;</strong> <a href="https://mn-shop.com/claimbits-ultimate-bitcoin-faucet">ClaimBits - Ultimate Faucet System</a>
+			</p>
+			<p>
+				<strong>Author:</strong><br />
+				<strong>&raquo;</strong> <a href="https://mn-shop.com">MN Shop</a>
+			</p>
+			<p>
+				<strong>Contacts:</strong><br />
+				<strong>&raquo;</strong> E-mail: <strong>contac@mn-shop.com</strong><br />
+			</p>
+			<hr>
+				<div class="subtitle">Introduction</div>
+			<p>
+				I'm happy you decided to purchase ClaimBits, a new system which let you create your own Crypto Faucet website. ClaimBits is a new type of Bitcoin Faucet which brings plenty of different features togheter into a complete system. This system was designed to be attractive and easy to use. With plenty of different features this system was designed to bring revenue and promote itself in a short time.
+			</p><br />
+			<div class="subtitle">Script Installation</div>
+			<ol>
+				<li>
+					Upload all files from the folder <strong>ClaimBits</strong> to your site, in the root folder.
+				</li>
+				<li>
+					Create the database (use cpanel or whatever database management client you have available)
+				</li>
+				<li>
+					Change file <strong>system/database.php</strong> permissions to <strong>777</strong>
+				</li>
+				<li>
+					Go to <strong>http://yourdomain.com/install</strong> and follow the steps to install the script
+				</li>
+				<li>
+					Change file <strong>system/database.php</strong> permissions to <strong>644</strong>
+				</li>
+				<li>
+					Create a Cron Job (make it run every minute) and call that file: /system/cron/cron.php<br />
+					<p><strong>Example:</strong> * * * * * &nbsp;&nbsp;&nbsp; php /home/<b>[YOUR_USERNAME]</b>/public_html/system/cron/cron.php</p>
+				</li>
+			</ol>	
+			<p><strong>Installation complete</strong>, delete folders <strong>install</strong> and you're done.</p><br>
+			<p>To manage site settings, users, websites, etc, go to <strong>http://yourdomain.com/admin-panel</strong> and login with your admin account.</p><br />
+			<div class="subtitle">Script Update</div>
+			<p>When a new version is released, you get notified into your admin panel. To get latest version of the script, all you have to do is to download script again from MN-Shop.com -> Customer Area -> Downloads section, then follow the instructions listed bellow.</p>
+			<ol>
+				<li>
+					Make an backup to your website (files and database).
+				</li>
+				<li>
+					Upload and replace all files from the folder <strong>ClaimBits</strong> to your site, where you have installed your script, but without <strong>system/database.php</strong> file and <strong>install</strong> folder.
+				</li>
+				<li>
+					Refresh your website (by pressing F5) few times.
+				</li>
+			</ol>	
+			<p><strong>ATENTION: If you use extra modules bought from our shop, don't forgot to download this modules again and also, to update this modules.</strong></p><br>
+			<p><strong>Update complete!</strong></p><br>
+		</div>
+	</div>
+	<div id="copyright" style="padding:5px 0 5px 0;">All rights reserved &copy; <a href="http://mn-shop.com" target="_blank">MN-Shop.com</a></div>
+</div>
+</body>
+</html>
