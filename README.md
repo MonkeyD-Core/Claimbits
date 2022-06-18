@@ -14,9 +14,6 @@ Email : tokifp7@gmail.com
 
 Subscribe my youtube : https://www.youtube.com/channel/UCXdH6xeRM1v4uebHFVJaKww
 
-ORDER ID : 76459
-
-Serial Key: EJRRI-SWTLP-ZSJSL-96334-W1R7J
 
 Donation : 
 
