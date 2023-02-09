@@ -1,4 +1,9 @@
-# Claimbits
+# >THIS SCRIPT INCLUDED A BACKDOOR, USE AT OWN RISK<
+## Donate: 
+## BTC: 198hyJz4ed9R1nKAJtiPTn3Jp68y5z7kRm
+
+
+### Claimbits
 Claimbits Faucet Script FREE
 
 ### This script shared by 4SE Dev / NewToki
